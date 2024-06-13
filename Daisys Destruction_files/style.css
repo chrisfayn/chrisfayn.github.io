@@ -1,0 +1,70 @@
+ 
+body {
+  font-family: daisy;
+  margin-top: 2em;
+  color: white;
+  background-image: url("images/b.png");
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+@font-face {
+  font-family: daisy;
+  src: url(HORRORMEMORIES.ttf);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a, a:active, a:visited {
+  color: #f30b00;
+  transition-duration: .5s;
+}
+
+a:hover {
+  color: white;
+}
+
+img.header {
+  display: block;
+  margin: auto;
+  border: 3px solid #f30b00;
+  width: 900px;
+  border-radius: 10px;
+}
+
+div.con {
+  width: 900px;
+  background-color: rgba(0,0,0,.2);
+  margin: 1em auto auto auto;
+  padding: 1.5em;
+  border: 3px solid #f30b00;
+  border-radius: 10px;
+}
+
+img.prev {
+  min-width: 320px;
+  min-height: 180px;
+  padding: 0.5em;
+  margin-right: 1em;
+  background-color: #390100;
+  border-radius: 4px;
+}
+
+div.descr {
+  display: flex;
+  margin: auto;
+  transition-duration: .5s;
+}
+
+div.descr:hover {
+	color: red;
+}
+
+div.dl {
+	margin-top: 1em;
+	font-size: 2em;
+	text-align: center;
+	font-weight: bold;
+}
